@@ -41,7 +41,9 @@ The network used here is a **2–2–1 MLP**:
 - 2 hidden neurons (Leaky ReLU activation)
 - 1 output neuron (Leaky ReLU activation during training)
 
+Here’s a visual representation of the 2–2–1 MLP used in this project:
 
+![XOR MLP Diagram](public/xor-mlp.png)
 
 ---
 
@@ -57,6 +59,9 @@ The network used here is a **2–2–1 MLP**:
 - Loads the final trained weights and biases.
 - Runs forward propagation for a given `(x1, x2)` input.
 - Prints the predicted output.
+
+### **`/public`**
+- Holds extra images for rough work and diagrams
 
 ---
 
